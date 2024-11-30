@@ -1,0 +1,414 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Projects\\CryptoTracker\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F1B95AD8-1DFF-4F4C-99B7-44527C914EAD}|Cryptotracker.Api.Tests\\Cryptotracker.Api.Tests.csproj|c:\\projects\\cryptotracker\\cryptotracker.api.tests\\cryptoscontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1B95AD8-1DFF-4F4C-99B7-44527C914EAD}|Cryptotracker.Api.Tests\\Cryptotracker.Api.Tests.csproj|solutionrelative:cryptotracker.api.tests\\cryptoscontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75CB5674-2EB0-4D06-948A-2F1AD744406E}|Cryptotracker.Api\\Cryptotracker.Api.csproj|c:\\projects\\cryptotracker\\cryptotracker.api\\controllers\\cryptoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75CB5674-2EB0-4D06-948A-2F1AD744406E}|Cryptotracker.Api\\Cryptotracker.Api.csproj|solutionrelative:cryptotracker.api\\controllers\\cryptoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDBE90DB-6591-4629-9365-456FF4DC4697}|Cryptotracker.Shared\\Cryptotracker.Shared.csproj|c:\\projects\\cryptotracker\\cryptotracker.shared\\services\\coincapapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDBE90DB-6591-4629-9365-456FF4DC4697}|Cryptotracker.Shared\\Cryptotracker.Shared.csproj|solutionrelative:cryptotracker.shared\\services\\coincapapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDBE90DB-6591-4629-9365-456FF4DC4697}|Cryptotracker.Shared\\Cryptotracker.Shared.csproj|c:\\projects\\cryptotracker\\cryptotracker.shared\\services\\databaseservice .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDBE90DB-6591-4629-9365-456FF4DC4697}|Cryptotracker.Shared\\Cryptotracker.Shared.csproj|solutionrelative:cryptotracker.shared\\services\\databaseservice .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDBE90DB-6591-4629-9365-456FF4DC4697}|Cryptotracker.Shared\\Cryptotracker.Shared.csproj|c:\\projects\\cryptotracker\\cryptotracker.shared\\services\\icryptoapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDBE90DB-6591-4629-9365-456FF4DC4697}|Cryptotracker.Shared\\Cryptotracker.Shared.csproj|solutionrelative:cryptotracker.shared\\services\\icryptoapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDBE90DB-6591-4629-9365-456FF4DC4697}|Cryptotracker.Shared\\Cryptotracker.Shared.csproj|c:\\projects\\cryptotracker\\cryptotracker.shared\\dto\\pricehistorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDBE90DB-6591-4629-9365-456FF4DC4697}|Cryptotracker.Shared\\Cryptotracker.Shared.csproj|solutionrelative:cryptotracker.shared\\dto\\pricehistorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDBE90DB-6591-4629-9365-456FF4DC4697}|Cryptotracker.Shared\\Cryptotracker.Shared.csproj|c:\\projects\\cryptotracker\\cryptotracker.shared\\dto\\cryptodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDBE90DB-6591-4629-9365-456FF4DC4697}|Cryptotracker.Shared\\Cryptotracker.Shared.csproj|solutionrelative:cryptotracker.shared\\dto\\cryptodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75CB5674-2EB0-4D06-948A-2F1AD744406E}|Cryptotracker.Api\\Cryptotracker.Api.csproj|c:\\projects\\cryptotracker\\cryptotracker.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75CB5674-2EB0-4D06-948A-2F1AD744406E}|Cryptotracker.Api\\Cryptotracker.Api.csproj|solutionrelative:cryptotracker.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDBE90DB-6591-4629-9365-456FF4DC4697}|Cryptotracker.Shared\\Cryptotracker.Shared.csproj|c:\\projects\\cryptotracker\\cryptotracker.shared\\constants\\jobconstants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDBE90DB-6591-4629-9365-456FF4DC4697}|Cryptotracker.Shared\\Cryptotracker.Shared.csproj|solutionrelative:cryptotracker.shared\\constants\\jobconstants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDBE90DB-6591-4629-9365-456FF4DC4697}|Cryptotracker.Shared\\Cryptotracker.Shared.csproj|c:\\projects\\cryptotracker\\cryptotracker.shared\\data\\cryptodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDBE90DB-6591-4629-9365-456FF4DC4697}|Cryptotracker.Shared\\Cryptotracker.Shared.csproj|solutionrelative:cryptotracker.shared\\data\\cryptodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75CB5674-2EB0-4D06-948A-2F1AD744406E}|Cryptotracker.Api\\Cryptotracker.Api.csproj|c:\\projects\\cryptotracker\\cryptotracker.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{75CB5674-2EB0-4D06-948A-2F1AD744406E}|Cryptotracker.Api\\Cryptotracker.Api.csproj|solutionrelative:cryptotracker.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDBE90DB-6591-4629-9365-456FF4DC4697}|Cryptotracker.Shared\\Cryptotracker.Shared.csproj|c:\\projects\\cryptotracker\\cryptotracker.shared\\configuration\\configurationvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDBE90DB-6591-4629-9365-456FF4DC4697}|Cryptotracker.Shared\\Cryptotracker.Shared.csproj|solutionrelative:cryptotracker.shared\\configuration\\configurationvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDBE90DB-6591-4629-9365-456FF4DC4697}|Cryptotracker.Shared\\Cryptotracker.Shared.csproj|c:\\projects\\cryptotracker\\cryptotracker.shared\\configuration\\apisettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDBE90DB-6591-4629-9365-456FF4DC4697}|Cryptotracker.Shared\\Cryptotracker.Shared.csproj|solutionrelative:cryptotracker.shared\\configuration\\apisettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDBE90DB-6591-4629-9365-456FF4DC4697}|Cryptotracker.Shared\\Cryptotracker.Shared.csproj|c:\\projects\\cryptotracker\\cryptotracker.shared\\migrations\\cryptodbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDBE90DB-6591-4629-9365-456FF4DC4697}|Cryptotracker.Shared\\Cryptotracker.Shared.csproj|solutionrelative:cryptotracker.shared\\migrations\\cryptodbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDBE90DB-6591-4629-9365-456FF4DC4697}|Cryptotracker.Shared\\Cryptotracker.Shared.csproj|c:\\projects\\cryptotracker\\cryptotracker.shared\\models\\cryptocurrency.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDBE90DB-6591-4629-9365-456FF4DC4697}|Cryptotracker.Shared\\Cryptotracker.Shared.csproj|solutionrelative:cryptotracker.shared\\models\\cryptocurrency.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD1487AB-0885-4695-A8D0-51DC8537159B}|Cryptotracker.Worker\\Cryptotracker.Worker.csproj|c:\\projects\\cryptotracker\\cryptotracker.worker\\jobs\\cryptodatafetchjob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD1487AB-0885-4695-A8D0-51DC8537159B}|Cryptotracker.Worker\\Cryptotracker.Worker.csproj|solutionrelative:cryptotracker.worker\\jobs\\cryptodatafetchjob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD1487AB-0885-4695-A8D0-51DC8537159B}|Cryptotracker.Worker\\Cryptotracker.Worker.csproj|c:\\projects\\cryptotracker\\cryptotracker.worker\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{CD1487AB-0885-4695-A8D0-51DC8537159B}|Cryptotracker.Worker\\Cryptotracker.Worker.csproj|solutionrelative:cryptotracker.worker\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD1487AB-0885-4695-A8D0-51DC8537159B}|Cryptotracker.Worker\\Cryptotracker.Worker.csproj|c:\\projects\\cryptotracker\\cryptotracker.worker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD1487AB-0885-4695-A8D0-51DC8537159B}|Cryptotracker.Worker\\Cryptotracker.Worker.csproj|solutionrelative:cryptotracker.worker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75CB5674-2EB0-4D06-948A-2F1AD744406E}|Cryptotracker.Api\\Cryptotracker.Api.csproj|c:\\projects\\cryptotracker\\cryptotracker.api\\cryptotracker.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{75CB5674-2EB0-4D06-948A-2F1AD744406E}|Cryptotracker.Api\\Cryptotracker.Api.csproj|solutionrelative:cryptotracker.api\\cryptotracker.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDBE90DB-6591-4629-9365-456FF4DC4697}|Cryptotracker.Shared\\Cryptotracker.Shared.csproj|c:\\projects\\cryptotracker\\cryptotracker.shared\\exceptions\\exception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDBE90DB-6591-4629-9365-456FF4DC4697}|Cryptotracker.Shared\\Cryptotracker.Shared.csproj|solutionrelative:cryptotracker.shared\\exceptions\\exception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDBE90DB-6591-4629-9365-456FF4DC4697}|Cryptotracker.Shared\\Cryptotracker.Shared.csproj|c:\\projects\\cryptotracker\\cryptotracker.shared\\cryptotracker.shared.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{EDBE90DB-6591-4629-9365-456FF4DC4697}|Cryptotracker.Shared\\Cryptotracker.Shared.csproj|solutionrelative:cryptotracker.shared\\cryptotracker.shared.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD1487AB-0885-4695-A8D0-51DC8537159B}|Cryptotracker.Worker\\Cryptotracker.Worker.csproj|c:\\projects\\cryptotracker\\cryptotracker.worker\\cryptotracker.worker.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{CD1487AB-0885-4695-A8D0-51DC8537159B}|Cryptotracker.Worker\\Cryptotracker.Worker.csproj|solutionrelative:cryptotracker.worker\\cryptotracker.worker.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CryptosControllerTests.cs",
+              "DocumentMoniker": "C:\\Projects\\CryptoTracker\\Cryptotracker.Api.Tests\\CryptosControllerTests.cs",
+              "RelativeDocumentMoniker": "Cryptotracker.Api.Tests\\CryptosControllerTests.cs",
+              "ToolTip": "C:\\Projects\\CryptoTracker\\Cryptotracker.Api.Tests\\CryptosControllerTests.cs",
+              "RelativeToolTip": "Cryptotracker.Api.Tests\\CryptosControllerTests.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAwwEcAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T20:42:11.465Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CryptosController.cs",
+              "DocumentMoniker": "C:\\Projects\\CryptoTracker\\Cryptotracker.Api\\Controllers\\CryptosController.cs",
+              "RelativeDocumentMoniker": "Cryptotracker.Api\\Controllers\\CryptosController.cs",
+              "ToolTip": "C:\\Projects\\CryptoTracker\\Cryptotracker.Api\\Controllers\\CryptosController.cs",
+              "RelativeToolTip": "Cryptotracker.Api\\Controllers\\CryptosController.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAADwv0EAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T10:58:28.249Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DatabaseService .cs",
+              "DocumentMoniker": "C:\\Projects\\CryptoTracker\\Cryptotracker.Shared\\Services\\DatabaseService .cs",
+              "RelativeDocumentMoniker": "Cryptotracker.Shared\\Services\\DatabaseService .cs",
+              "ToolTip": "C:\\Projects\\CryptoTracker\\Cryptotracker.Shared\\Services\\DatabaseService .cs",
+              "RelativeToolTip": "Cryptotracker.Shared\\Services\\DatabaseService .cs",
+              "ViewState": "AgIAAFEAAAAAAAAAAADgv1EAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T13:43:11.9Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CoinCapApiClient.cs",
+              "DocumentMoniker": "C:\\Projects\\CryptoTracker\\Cryptotracker.Shared\\Services\\CoinCapApiClient.cs",
+              "RelativeDocumentMoniker": "Cryptotracker.Shared\\Services\\CoinCapApiClient.cs",
+              "ToolTip": "C:\\Projects\\CryptoTracker\\Cryptotracker.Shared\\Services\\CoinCapApiClient.cs",
+              "RelativeToolTip": "Cryptotracker.Shared\\Services\\CoinCapApiClient.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAiwDIAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T14:30:56.783Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ICryptoApiClient.cs",
+              "DocumentMoniker": "C:\\Projects\\CryptoTracker\\Cryptotracker.Shared\\Services\\ICryptoApiClient.cs",
+              "RelativeDocumentMoniker": "Cryptotracker.Shared\\Services\\ICryptoApiClient.cs",
+              "ToolTip": "C:\\Projects\\CryptoTracker\\Cryptotracker.Shared\\Services\\ICryptoApiClient.cs",
+              "RelativeToolTip": "Cryptotracker.Shared\\Services\\ICryptoApiClient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T14:01:52.66Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PriceHistoryDto.cs",
+              "DocumentMoniker": "C:\\Projects\\CryptoTracker\\Cryptotracker.Shared\\Dto\\PriceHistoryDto.cs",
+              "RelativeDocumentMoniker": "Cryptotracker.Shared\\Dto\\PriceHistoryDto.cs",
+              "ToolTip": "C:\\Projects\\CryptoTracker\\Cryptotracker.Shared\\Dto\\PriceHistoryDto.cs",
+              "RelativeToolTip": "Cryptotracker.Shared\\Dto\\PriceHistoryDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T12:12:31.597Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CryptoDto.cs",
+              "DocumentMoniker": "C:\\Projects\\CryptoTracker\\Cryptotracker.Shared\\Dto\\CryptoDto.cs",
+              "RelativeDocumentMoniker": "Cryptotracker.Shared\\Dto\\CryptoDto.cs",
+              "ToolTip": "C:\\Projects\\CryptoTracker\\Cryptotracker.Shared\\Dto\\CryptoDto.cs",
+              "RelativeToolTip": "Cryptotracker.Shared\\Dto\\CryptoDto.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAywCQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T13:52:05.622Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CryptoDbContext.cs",
+              "DocumentMoniker": "C:\\Projects\\CryptoTracker\\Cryptotracker.Shared\\Data\\CryptoDbContext.cs",
+              "RelativeDocumentMoniker": "Cryptotracker.Shared\\Data\\CryptoDbContext.cs",
+              "ToolTip": "C:\\Projects\\CryptoTracker\\Cryptotracker.Shared\\Data\\CryptoDbContext.cs",
+              "RelativeToolTip": "Cryptotracker.Shared\\Data\\CryptoDbContext.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwB4AAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T13:40:58.383Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Projects\\CryptoTracker\\Cryptotracker.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "Cryptotracker.Api\\appsettings.json",
+              "ToolTip": "C:\\Projects\\CryptoTracker\\Cryptotracker.Api\\appsettings.json",
+              "RelativeToolTip": "Cryptotracker.Api\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-20T13:45:27.341Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Projects\\CryptoTracker\\Cryptotracker.Api\\Program.cs",
+              "RelativeDocumentMoniker": "Cryptotracker.Api\\Program.cs",
+              "ToolTip": "C:\\Projects\\CryptoTracker\\Cryptotracker.Api\\Program.cs",
+              "RelativeToolTip": "Cryptotracker.Api\\Program.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAIBJwEUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T13:46:09.101Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Microsoft.Common.CurrentVersion.targets",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeDocumentMoniker": "..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeToolTip": "..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ViewState": "AgIAAJITAAAAAAAAAAAlwKoTAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2024-11-21T13:36:39.66Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "JobConstants.cs",
+              "DocumentMoniker": "C:\\Projects\\CryptoTracker\\Cryptotracker.Shared\\Constants\\JobConstants.cs",
+              "RelativeDocumentMoniker": "Cryptotracker.Shared\\Constants\\JobConstants.cs",
+              "ToolTip": "C:\\Projects\\CryptoTracker\\Cryptotracker.Shared\\Constants\\JobConstants.cs",
+              "RelativeToolTip": "Cryptotracker.Shared\\Constants\\JobConstants.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAmwA4AAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T21:33:25.413Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ConfigurationValidator.cs",
+              "DocumentMoniker": "C:\\Projects\\CryptoTracker\\Cryptotracker.Shared\\Configuration\\ConfigurationValidator.cs",
+              "RelativeDocumentMoniker": "Cryptotracker.Shared\\Configuration\\ConfigurationValidator.cs",
+              "ToolTip": "C:\\Projects\\CryptoTracker\\Cryptotracker.Shared\\Configuration\\ConfigurationValidator.cs",
+              "RelativeToolTip": "Cryptotracker.Shared\\Configuration\\ConfigurationValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T14:35:52.876Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ApiSettings.cs",
+              "DocumentMoniker": "C:\\Projects\\CryptoTracker\\Cryptotracker.Shared\\Configuration\\ApiSettings.cs",
+              "RelativeDocumentMoniker": "Cryptotracker.Shared\\Configuration\\ApiSettings.cs",
+              "ToolTip": "C:\\Projects\\CryptoTracker\\Cryptotracker.Shared\\Configuration\\ApiSettings.cs",
+              "RelativeToolTip": "Cryptotracker.Shared\\Configuration\\ApiSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T14:34:45.775Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CryptoDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Projects\\CryptoTracker\\Cryptotracker.Shared\\Migrations\\CryptoDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Cryptotracker.Shared\\Migrations\\CryptoDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Projects\\CryptoTracker\\Cryptotracker.Shared\\Migrations\\CryptoDbContextModelSnapshot.cs",
+              "RelativeToolTip": "Cryptotracker.Shared\\Migrations\\CryptoDbContextModelSnapshot.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAIBZwGUAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T15:51:30.681Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Cryptocurrency.cs",
+              "DocumentMoniker": "C:\\Projects\\CryptoTracker\\Cryptotracker.Shared\\Models\\Cryptocurrency.cs",
+              "RelativeDocumentMoniker": "Cryptotracker.Shared\\Models\\Cryptocurrency.cs",
+              "ToolTip": "C:\\Projects\\CryptoTracker\\Cryptotracker.Shared\\Models\\Cryptocurrency.cs",
+              "RelativeToolTip": "Cryptotracker.Shared\\Models\\Cryptocurrency.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwAYAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T13:49:17.575Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CryptoDataFetchJob.cs",
+              "DocumentMoniker": "C:\\Projects\\CryptoTracker\\Cryptotracker.Worker\\Jobs\\CryptoDataFetchJob.cs",
+              "RelativeDocumentMoniker": "Cryptotracker.Worker\\Jobs\\CryptoDataFetchJob.cs",
+              "ToolTip": "C:\\Projects\\CryptoTracker\\Cryptotracker.Worker\\Jobs\\CryptoDataFetchJob.cs",
+              "RelativeToolTip": "Cryptotracker.Worker\\Jobs\\CryptoDataFetchJob.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAQwF4AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T14:16:41.2Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Projects\\CryptoTracker\\Cryptotracker.Worker\\appsettings.json",
+              "RelativeDocumentMoniker": "Cryptotracker.Worker\\appsettings.json",
+              "ToolTip": "C:\\Projects\\CryptoTracker\\Cryptotracker.Worker\\appsettings.json",
+              "RelativeToolTip": "Cryptotracker.Worker\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-20T14:34:12.375Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Projects\\CryptoTracker\\Cryptotracker.Worker\\Program.cs",
+              "RelativeDocumentMoniker": "Cryptotracker.Worker\\Program.cs",
+              "ToolTip": "C:\\Projects\\CryptoTracker\\Cryptotracker.Worker\\Program.cs",
+              "RelativeToolTip": "Cryptotracker.Worker\\Program.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAIBZwFAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T14:09:39.781Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Cryptotracker.Api.http",
+              "DocumentMoniker": "C:\\Projects\\CryptoTracker\\Cryptotracker.Api\\Cryptotracker.Api.http",
+              "RelativeDocumentMoniker": "Cryptotracker.Api\\Cryptotracker.Api.http",
+              "ToolTip": "C:\\Projects\\CryptoTracker\\Cryptotracker.Api\\Cryptotracker.Api.http",
+              "RelativeToolTip": "Cryptotracker.Api\\Cryptotracker.Api.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-11-21T08:49:22.562Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Exception.cs",
+              "DocumentMoniker": "C:\\Projects\\CryptoTracker\\Cryptotracker.Shared\\Exceptions\\Exception.cs",
+              "RelativeDocumentMoniker": "Cryptotracker.Shared\\Exceptions\\Exception.cs",
+              "ToolTip": "C:\\Projects\\CryptoTracker\\Cryptotracker.Shared\\Exceptions\\Exception.cs",
+              "RelativeToolTip": "Cryptotracker.Shared\\Exceptions\\Exception.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T21:35:11.285Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Cryptotracker.Shared.csproj",
+              "DocumentMoniker": "C:\\Projects\\CryptoTracker\\Cryptotracker.Shared\\Cryptotracker.Shared.csproj",
+              "RelativeDocumentMoniker": "Cryptotracker.Shared\\Cryptotracker.Shared.csproj",
+              "ToolTip": "C:\\Projects\\CryptoTracker\\Cryptotracker.Shared\\Cryptotracker.Shared.csproj",
+              "RelativeToolTip": "Cryptotracker.Shared\\Cryptotracker.Shared.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-20T21:12:11.476Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Cryptotracker.Worker.csproj",
+              "DocumentMoniker": "C:\\Projects\\CryptoTracker\\Cryptotracker.Worker\\Cryptotracker.Worker.csproj",
+              "RelativeDocumentMoniker": "Cryptotracker.Worker\\Cryptotracker.Worker.csproj",
+              "ToolTip": "C:\\Projects\\CryptoTracker\\Cryptotracker.Worker\\Cryptotracker.Worker.csproj",
+              "RelativeToolTip": "Cryptotracker.Worker\\Cryptotracker.Worker.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-20T14:02:46.341Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Cryptotracker.Api</name>
+    </assembly>
+    <members>
+        <member name="T:Cryptotracker.Api.Controllers.CryptosController">
+            <summary>
+            Controller for managing cryptocurrency data
+            </summary>
+        </member>
+        <member name="M:Cryptotracker.Api.Controllers.CryptosController.Get(System.String,System.String)">
+            <summary>
+            Get all cryptocurrencies with optional filtering and sorting
+            </summary>
+            <param name="search">Search by name or symbol</param>
+            <param name="sortBy">Sort by: price, volume, marketCap</param>
+        </member>
+        <member name="M:Cryptotracker.Api.Controllers.CryptosController.GetBySymbol(System.String)">
+            <summary>
+            Get cryptocurrency details by symbol
+            </summary>
+            <param name="symbol">Cryptocurrency symbol (e.g., BTC)</param>
+        </member>
+        <member name="M:Cryptotracker.Api.Controllers.CryptosController.GetHistory(System.String,System.Nullable{System.DateTime},System.Nullable{System.DateTime})">
+            <summary>
+            Get price history for a cryptocurrency
+            </summary>
+            <param name="symbol">Cryptocurrency symbol</param>
+            <param name="from">Start date (optional)</param>
+            <param name="to">End date (optional)</param>
+        </member>
+    </members>
+</doc>
