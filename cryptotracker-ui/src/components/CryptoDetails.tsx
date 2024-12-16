@@ -5,7 +5,6 @@ import {
   TopBar,
   BackButton,
   DetailContainer,
-  Price,
   PriceChange,
   CryptoItem,
   CryptoLogo,
@@ -25,15 +24,13 @@ const CryptoDetails: React.FC = () => {
   const [crypto, setCrypto] = React.useState<Crypto | null>(null);
   const [history, setHistory] = React.useState<PriceHistory[]>([]);
   const [loading, setLoading] = React.useState(true);
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const [historyLoading, setHistoryLoading] = React.useState(false);
   const [error, setError] = React.useState<string | null>(null);
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const [selectedRange, setSelectedRange] = useState('7d');
 
-  const ranges = [
-    { label: '7 Days', value: '7d' },
-    { label: '30 Days', value: '30d' },
-    { label: 'All Time', value: '' },
-  ];
+ 
 
   React.useEffect(() => {
     if (!symbol) {

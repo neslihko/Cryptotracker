@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
+import {   Routes, Route, useLocation } from 'react-router-dom';
 import { Layout, SidePanel, MainPanel } from './styles/StyledComponents';
 import CryptoList from './components/CryptoList';
 import CryptoDetails from './components/CryptoDetails';

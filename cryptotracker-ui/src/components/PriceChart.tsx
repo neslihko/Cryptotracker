@@ -8,7 +8,6 @@ import {
   Tooltip,
   ResponsiveContainer
 } from 'recharts';
-import styled from 'styled-components';
 
 import {ChartContainer} from '../styles/StyledComponents';
 
