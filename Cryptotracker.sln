@@ -16,19 +16,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		.gitignore = .gitignore
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "cryptotracker-ui", "cryptotracker-ui", "{88643C33-9E31-4317-8938-B093C50175F5}"
-	ProjectSection(SolutionItems) = preProject
-		.env = .env
-		cryptotracker-ui\.env = cryptotracker-ui\.env
-		cryptotracker-ui\.gitmodules = cryptotracker-ui\.gitmodules
-		babel.config.json = babel.config.json
-		cryptotracker-ui\babel.config.json = cryptotracker-ui\babel.config.json
-		cryptotracker-ui\fly.toml = cryptotracker-ui\fly.toml
-		cryptotracker-ui\jest.config.js__ = cryptotracker-ui\jest.config.js__
-		cryptotracker-ui\package-lock.json = cryptotracker-ui\package-lock.json
-		cryptotracker-ui\package.json = cryptotracker-ui\package.json
-		cryptotracker-ui\tsconfig.json = cryptotracker-ui\tsconfig.json
-	EndProjectSection
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "cryptotracker-ui", "cryptotracker-ui\cryptotracker-ui.esproj", "{4660CD07-967D-4976-A2C0-944762D23C28}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -52,6 +40,12 @@ Global
 		{F1B95AD8-1DFF-4F4C-99B7-44527C914EAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F1B95AD8-1DFF-4F4C-99B7-44527C914EAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F1B95AD8-1DFF-4F4C-99B7-44527C914EAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4660CD07-967D-4976-A2C0-944762D23C28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4660CD07-967D-4976-A2C0-944762D23C28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4660CD07-967D-4976-A2C0-944762D23C28}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{4660CD07-967D-4976-A2C0-944762D23C28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4660CD07-967D-4976-A2C0-944762D23C28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4660CD07-967D-4976-A2C0-944762D23C28}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
