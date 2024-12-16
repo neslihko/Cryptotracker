@@ -18,8 +18,12 @@ module.exports = {
     'prettier/prettier': 'error',
     'react/react-in-jsx-scope': 'off',
     '@typescript-eslint/explicit-function-return-type': 'off',
-    '@typescript-eslint/no-unused-vars': 'warn', // Adjust to 'error' if needed
-    'react/jsx-props-no-spreading': 'off', // Adjust to 'error' if you want to control prop spreading
+    '@typescript-eslint/no-unused-vars': 'error',
+    '@typescript-eslint/no-explicit-any': 'error',
+    '@typescript-eslint/prefer-optional-chain': 'error',
+    '@typescript-eslint/prefer-nullish-coalescing': 'error',
+    '@typescript-eslint/consistent-type-definitions': 'error',
+    'react/jsx-props-no-spreading': 'error', // Adjust as needed
     'react/prop-types': 'off', // If using TypeScript, consider disabling this rule
     'react/jsx-filename-extension': [1, { extensions: ['.js', '.jsx', '.ts', '.tsx'] }],
     'react/function-component-definition': [
