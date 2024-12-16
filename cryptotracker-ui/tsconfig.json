@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "ESNext", // Target modern JavaScript
+    "module": "ESNext", // Use ES Modules
+    "moduleResolution": "Node",
+    "esModuleInterop": true, // Enable compatibility with CommonJS/ES Module interop
+    "jsx": "react", // Adjust if you're using React
+    "strict": true,
+    "skipLibCheck": true,
+    "allowSyntheticDefaultImports": true,
+    "types": ["jest", "node"]
+
+  },
+  "include": ["src"], // Include your source files
+  "exclude": ["node_modules", "dist"] // Exclude build and dependency files
+}
