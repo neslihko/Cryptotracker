@@ -23,6 +23,9 @@ module.exports = {
     '@typescript-eslint/prefer-optional-chain': 'error',
     '@typescript-eslint/prefer-nullish-coalescing': 'error',
     '@typescript-eslint/consistent-type-definitions': 'error',
+    '@typescript-eslint/no-unsafe-member-access': 'error',
+    '@typescript-eslint/no-unsafe-return': 'error',
+    '@typescript-eslint/no-unsafe-assignment': 'error',
     'react/jsx-props-no-spreading': 'error', // Adjust as needed
     'react/prop-types': 'off', // If using TypeScript, consider disabling this rule
     'react/jsx-filename-extension': [1, { extensions: ['.js', '.jsx', '.ts', '.tsx'] }],
