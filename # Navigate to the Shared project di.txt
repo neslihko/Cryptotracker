@@ -1,0 +1,8 @@
+# Navigate to the Shared project directory
+cd Cryptotracker.Shared
+
+# Create migration
+dotnet ef migrations add InitialCreate --startup-project ../Cryptotracker.Worker/Cryptotracker.Worker.csproj
+
+# Apply migration
+dotnet ef database update --startup-project ../Cryptotracker.Worker/Cryptotracker.Worker.csproj

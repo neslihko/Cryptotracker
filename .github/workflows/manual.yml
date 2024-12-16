@@ -1,0 +1,41 @@
+name: Quartz Scheduler
+on:
+  schedule:
+    - cron: "*/15 * * * *"
+
+jobs:
+  run-quartz:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Check out repository
+      uses: actions/checkout@v3
+      with:
+        fetch-depth: 0  # Tüm history'yi al
+        persist-credentials: false  # Kimlik bilgilerini sakla
+
+    - name: Set up .NET
+      uses: actions/setup-dotnet@v3
+      with:
+        dotnet-version: "8.0"
+
+    # GitHub token'ı ayarla
+    - name: Setup GitHub Token
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: |
+        git config --global url."https://${GITHUB_TOKEN}:x-oauth-basic@github.com/".insteadOf "https://github.com/"
+
+    - name: Restore dependencies
+      run: |
+        dotnet restore Cryptotracker.Worker/Cryptotracker.Worker.csproj
+        dotnet restore Cryptotracker.Shared/Cryptotracker.Shared.csproj
+
+    - name: Build
+      run: dotnet build Cryptotracker.Worker/Cryptotracker.Worker.csproj -c Release --no-restore
+
+    - name: Run Quartz Scheduler
+      env:
+        # Gerekli environment variable'ları ekleyin
+        ConnectionStrings__DefaultConnection: ${{ secrets.DB_CONNECTION_STRING }}
+      run: dotnet run --project Cryptotracker.Worker/Cryptotracker.Worker.csproj -c Release

@@ -1,0 +1,24 @@
+FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
+WORKDIR /src
+
+# Sadece Worker ve Shared projeleri için gerekli dosyaları kopyala
+COPY ["Cryptotracker.Worker/Cryptotracker.Worker.csproj", "Cryptotracker.Worker/"]
+COPY ["Cryptotracker.Shared/Cryptotracker.Shared.csproj", "Cryptotracker.Shared/"]
+
+# Worker projesinin bağımlılıklarını restore et
+RUN dotnet restore "Cryptotracker.Worker/Cryptotracker.Worker.csproj"
+
+# Sadece gerekli projeleri kopyala
+COPY ["Cryptotracker.Worker/", "Cryptotracker.Worker/"]
+COPY ["Cryptotracker.Shared/", "Cryptotracker.Shared/"]
+
+# Build
+RUN dotnet build "Cryptotracker.Worker/Cryptotracker.Worker.csproj" -c Release -o /app/build
+
+FROM build AS publish
+RUN dotnet publish "Cryptotracker.Worker/Cryptotracker.Worker.csproj" -c Release -o /app/publish /p:UseAppHost=false
+
+FROM mcr.microsoft.com/dotnet/runtime:8.0 AS final
+WORKDIR /app
+COPY --from=publish /app/publish .
+ENTRYPOINT ["dotnet", "Cryptotracker.Worker.dll"]

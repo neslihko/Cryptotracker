@@ -1,0 +1,7 @@
+# Add these to .gitignore
+bin/
+obj/
+.vs/
+node_modules/
+build/
+*.user

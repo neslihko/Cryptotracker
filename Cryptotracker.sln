@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cryptotracker.Api", "Cryptotracker.Api\Cryptotracker.Api.csproj", "{75CB5674-2EB0-4D06-948A-2F1AD744406E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cryptotracker.Worker", "Cryptotracker.Worker\Cryptotracker.Worker.csproj", "{CD1487AB-0885-4695-A8D0-51DC8537159B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cryptotracker.Shared", "Cryptotracker.Shared\Cryptotracker.Shared.csproj", "{EDBE90DB-6591-4629-9365-456FF4DC4697}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cryptotracker.Api.Tests", "Cryptotracker.Api.Tests\Cryptotracker.Api.Tests.csproj", "{F1B95AD8-1DFF-4F4C-99B7-44527C914EAD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{49F33385-C277-42B8-B137-15255D6A56C8}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "cryptotracker-ui", "cryptotracker-ui", "{88643C33-9E31-4317-8938-B093C50175F5}"
+	ProjectSection(SolutionItems) = preProject
+		.env = .env
+		cryptotracker-ui\.env = cryptotracker-ui\.env
+		cryptotracker-ui\.gitmodules = cryptotracker-ui\.gitmodules
+		babel.config.json = babel.config.json
+		cryptotracker-ui\babel.config.json = cryptotracker-ui\babel.config.json
+		cryptotracker-ui\fly.toml = cryptotracker-ui\fly.toml
+		cryptotracker-ui\jest.config.js__ = cryptotracker-ui\jest.config.js__
+		cryptotracker-ui\package-lock.json = cryptotracker-ui\package-lock.json
+		cryptotracker-ui\package.json = cryptotracker-ui\package.json
+		cryptotracker-ui\tsconfig.json = cryptotracker-ui\tsconfig.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{75CB5674-2EB0-4D06-948A-2F1AD744406E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75CB5674-2EB0-4D06-948A-2F1AD744406E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75CB5674-2EB0-4D06-948A-2F1AD744406E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75CB5674-2EB0-4D06-948A-2F1AD744406E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD1487AB-0885-4695-A8D0-51DC8537159B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD1487AB-0885-4695-A8D0-51DC8537159B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD1487AB-0885-4695-A8D0-51DC8537159B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD1487AB-0885-4695-A8D0-51DC8537159B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDBE90DB-6591-4629-9365-456FF4DC4697}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDBE90DB-6591-4629-9365-456FF4DC4697}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDBE90DB-6591-4629-9365-456FF4DC4697}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDBE90DB-6591-4629-9365-456FF4DC4697}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1B95AD8-1DFF-4F4C-99B7-44527C914EAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1B95AD8-1DFF-4F4C-99B7-44527C914EAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1B95AD8-1DFF-4F4C-99B7-44527C914EAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1B95AD8-1DFF-4F4C-99B7-44527C914EAD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
