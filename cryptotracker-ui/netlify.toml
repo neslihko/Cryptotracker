@@ -1,0 +1,7 @@
+[build]
+  base = "cryptotracker-ui"      # Path to the React project root
+  publish = "cryptotracker-ui/dist"  # Build output folder
+  command = "npm run build"      # Command to build your project
+
+[functions]
+  directory = "cryptotracker-ui/netlify/functions"  # Optional for Netlify functions
