@@ -1,4 +1,4 @@
-using Cryptotracker.Shared.Configuration;
+﻿using Cryptotracker.Shared.Configuration;
 using Cryptotracker.Shared.Data;
 using Cryptotracker.Shared.Services;
 using Microsoft.EntityFrameworkCore;
@@ -77,8 +77,9 @@ if (app.Environment.IsDevelopment() || app.Environment.IsProduction())
 }
 
 // Add routing middleware
-app.UseCors("AllowReactApp");  // Move this before UseRouting
+app.UseHttpsRedirection();
 app.UseRouting();
+app.UseCors("AllowReactApp");  // CORS middleware'i burada olmalı
 app.UseAuthorization();
 app.MapControllers();
 

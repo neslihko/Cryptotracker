@@ -1,4 +1,5 @@
 ﻿using Cryptotracker.Shared.Dto;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
 using System.ComponentModel.DataAnnotations;
 
@@ -7,6 +8,8 @@ namespace Cryptotracker.Api.Controllers
     /// <summary>
     /// Controller for managing cryptocurrency data
     /// </summary>
+    /// [EnableCors("AllowReactApp")]
+    [EnableCors("AllowReactApp")]
     [ApiController]
     [Route("api/[controller]")]
     [Produces("application/json")]
