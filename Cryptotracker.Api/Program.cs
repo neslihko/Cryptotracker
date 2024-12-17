@@ -8,7 +8,7 @@ using System.Net.Http.Headers;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container
-builder.Services.AddControllers();  // Make sure this is added
+builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(c =>
 {
@@ -30,11 +30,8 @@ builder.Services.AddHttpClient<ICryptoApiClient, CoinCapApiClient>((serviceProvi
     var settings = builder.Configuration
         .GetSection("ApiSettings:CoinCap")
         .Get<CoinCapSettings>();
-
-
     if (settings == null)
         throw new InvalidOperationException("CoinCap settings not configured");
-
     client.BaseAddress = new Uri(settings.BaseUrl);
     client.DefaultRequestHeaders.Accept.Add(
         new MediaTypeWithQualityHeaderValue("application/json"));
@@ -47,43 +44,44 @@ builder.Services.AddDbContext<CryptoDbContext>(options =>
 // Add services
 builder.Services.AddScoped<IDatabaseService, DatabaseService>();
 
+// Configure CORS
 builder.Services.AddCors(options =>
 {
-    var uIsettings = builder.Configuration
-    .GetSection("ApiSettings:UI")
-    .Get<UISettings>();
     options.AddDefaultPolicy(builder =>
-       builder.WithOrigins(
-           uIsettings.BaseUrl,
-           "http://localhost:3000",
-           "https://cryptotracker-dx91.onrender.com"
-       )
-       .AllowAnyHeader()
-       .AllowAnyMethod());
+    {
+        _ = builder
+            .WithOrigins(
+                "https://sparentracker.netlify.app",
+                "http://localhost:3000",
+                "http://localhost:5173",
+                "https://cryptotracker-dx91.onrender.com"
+            )
+            .AllowAnyMethod()
+            .AllowAnyHeader()
+            .AllowCredentials();
+    });
 });
 
 var app = builder.Build();
-
 
 // Configure the HTTP request pipeline
 if (app.Environment.IsDevelopment() || app.Environment.IsProduction())
 {
     _ = app.UseSwagger();
     _ = app.UseSwaggerUI(c =>
-    {
-        c.SwaggerEndpoint("/swagger/v1/swagger.json", "Cryptotracker API V1");
-        c.RoutePrefix = string.Empty;  // This makes Swagger UI the root page
-    });
+   {
+       c.SwaggerEndpoint("/swagger/v1/swagger.json", "Cryptotracker API V1");
+       c.RoutePrefix = string.Empty;  // This makes Swagger UI the root page
+   });
 }
 
-// Add routing middleware
+// Configure middleware pipeline
 app.UseHttpsRedirection();
 app.UseRouting();
-app.UseCors("AllowReactApp");  // CORS middleware'i burada olmalı
+app.UseCors();
 app.UseAuthorization();
 app.MapControllers();
 
-// Redirect root to Swagger
-app.MapGet("/", () => Results.Redirect("/swagger"));
+
 
 app.Run();

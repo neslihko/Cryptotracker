@@ -9,7 +9,7 @@ namespace Cryptotracker.Api.Controllers
     /// Controller for managing cryptocurrency data
     /// </summary>
     /// [EnableCors("AllowReactApp")]
-    [EnableCors("AllowReactApp")]
+    [EnableCors]
     [ApiController]
     [Route("api/[controller]")]
     [Produces("application/json")]

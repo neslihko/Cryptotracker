@@ -25,4 +25,20 @@
     <ProjectReference Include="..\Cryptotracker.Shared\Cryptotracker.Shared.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <EditorConfigFiles Remove="C:\Projects\CryptoTracker\Cryptotracker.Api\.editorconfig" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove=".editorconfig" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EditorConfigFiles Remove="C:\Projects\CryptoTracker\Cryptotracker.Api\.editorconfig" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EditorConfigFiles Remove="C:\Projects\CryptoTracker\Cryptotracker.Api\.editorconfig" />
+  </ItemGroup>
+
 </Project>
