@@ -53,9 +53,13 @@ builder.Services.AddCors(options =>
     .GetSection("ApiSettings:UI")
     .Get<UISettings>();
     options.AddPolicy("AllowReactApp", builder =>
-        builder.WithOrigins(uIsettings.BaseUrl, "http://localhost:3000")
-               .AllowAnyHeader()
-               .AllowAnyMethod());
+       builder.WithOrigins(
+           uIsettings.BaseUrl,
+           "http://localhost:3000",
+           "https://cryptotracker-dx91.onrender.com"
+       )
+       .AllowAnyHeader()
+       .AllowAnyMethod());
 });
 
 var app = builder.Build();
@@ -73,12 +77,9 @@ if (app.Environment.IsDevelopment() || app.Environment.IsProduction())
 }
 
 // Add routing middleware
+app.UseCors("AllowReactApp");  // Move this before UseRouting
 app.UseRouting();
-// Use CORS
-app.UseCors("AllowReactApp");
 app.UseAuthorization();
-
-// Map controllers
 app.MapControllers();
 
 // Redirect root to Swagger
