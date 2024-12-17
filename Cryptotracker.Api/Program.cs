@@ -52,9 +52,8 @@ builder.Services.AddCors(options =>
     var uIsettings = builder.Configuration
     .GetSection("ApiSettings:UI")
     .Get<UISettings>();
-
     options.AddPolicy("AllowReactApp", builder =>
-    builder.WithOrigins(uIsettings.BaseUrl) // React's default port
+        builder.WithOrigins(uIsettings.BaseUrl, "http://localhost:3000")
                .AllowAnyHeader()
                .AllowAnyMethod());
 });
@@ -75,10 +74,10 @@ if (app.Environment.IsDevelopment() || app.Environment.IsProduction())
 
 // Add routing middleware
 app.UseRouting();
-
-app.UseAuthorization();
 // Use CORS
 app.UseCors("AllowReactApp");
+app.UseAuthorization();
+
 // Map controllers
 app.MapControllers();
 
