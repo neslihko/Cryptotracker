@@ -3,7 +3,7 @@ import axios, { AxiosError } from 'axios';
 
 export const api = axios.create({
   baseURL: process.env.REACT_APP_API_BASE_URL || 'https://cryptotracker-dx91.onrender.com/api/',
-  timeout: 5000
+  timeout: 30000
 });
 
 const logError = (error: unknown) => {
