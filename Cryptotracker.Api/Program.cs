@@ -52,7 +52,7 @@ builder.Services.AddCors(options =>
     var uIsettings = builder.Configuration
     .GetSection("ApiSettings:UI")
     .Get<UISettings>();
-    options.AddPolicy("AllowReactApp", builder =>
+    options.AddDefaultPolicy(builder =>
        builder.WithOrigins(
            uIsettings.BaseUrl,
            "http://localhost:3000",
