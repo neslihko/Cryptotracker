@@ -44,7 +44,8 @@ const CryptoList: React.FC<CryptoListProps> = ({ isDetailsVisible = false }) => 
 
   return (
     <Layout>
-      <SidePanel isDetailsVisible={isDetailsVisible}>
+      <SidePanel $isDetailsVisible={isDetailsVisible}>
+
         <TopBar>Übersicht</TopBar>
         <SearchInput
           type="text"
@@ -70,7 +71,8 @@ const CryptoList: React.FC<CryptoListProps> = ({ isDetailsVisible = false }) => 
                 </div>
               </CryptoInfo>
               <div>
-                <PriceChange isPositive={crypto.changePercent24Hr >= 0}>
+                <PriceChange $isPositive={crypto.changePercent24Hr  > 0}>
+
                   {crypto.changePercent24Hr > 0 ? '+' : ''}
                   <div style={{ color: '#666', fontSize: '0.9em' }}>
                   ${crypto.currentPrice.toLocaleString()}
@@ -81,7 +83,7 @@ const CryptoList: React.FC<CryptoListProps> = ({ isDetailsVisible = false }) => 
           ))
         )}
       </SidePanel>
-      <MainPanel isDetailsVisible={isDetailsVisible}>
+      <MainPanel $isDetailsVisible={isDetailsVisible}>
         {/* Details view will be rendered here by nested routes */}
       </MainPanel>
     </Layout>

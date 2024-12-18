@@ -100,7 +100,7 @@ const CryptoDetails: React.FC = () => {
                 </div>
               </CryptoInfo>
               <div>
-              <PriceChange isPositive={(crypto?.changePercent24Hr ?? 0) >= 0}>
+              <PriceChange $isPositive={(crypto?.changePercent24Hr ?? 0) >= 0}>
           {(crypto?.changePercent24Hr ?? 0) > 0 ? '+' : ''}
           {(crypto?.changePercent24Hr ?? 0).toFixed(2)}%
         </PriceChange>
