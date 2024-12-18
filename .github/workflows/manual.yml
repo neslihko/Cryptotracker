@@ -20,6 +20,12 @@ jobs:
       with:
         dotnet-version: "8.0.x"
 
+    - name: Clean solution
+      run: |
+        dotnet clean
+        rm -rf Cryptotracker.Worker/bin Cryptotracker.Worker/obj
+        rm -rf Cryptotracker.Shared/bin Cryptotracker.Shared/obj
+
     - name: Setup GitHub Token
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -32,7 +38,7 @@ jobs:
         dotnet restore Cryptotracker.Shared/Cryptotracker.Shared.csproj
 
     - name: Build
-      run: dotnet build Cryptotracker.Worker/Cryptotracker.Worker.csproj -c Release --no-restore
+      run: dotnet build Cryptotracker.Worker/Cryptotracker.Worker.csproj -c Release --no-restore --no-incremental
 
     - name: Run Quartz Scheduler
       env:
