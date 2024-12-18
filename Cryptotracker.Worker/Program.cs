@@ -69,7 +69,7 @@ using (var scope = app.Services.CreateScope())
     try
     {
         logger.LogInformation("Applying database migrations...");
-        await db.Database.MigrateAsync();
+        //     await db.Database.MigrateAsync();
         logger.LogInformation("Database migrations applied successfully");
     }
     catch (Exception ex)
