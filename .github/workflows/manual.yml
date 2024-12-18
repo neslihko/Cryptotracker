@@ -42,7 +42,7 @@ jobs:
 
     - name: Run Quartz Scheduler
       env:
-        ConnectionStrings__DefaultConnection: ${{ secrets.DB_CONNECTION_STRING }}
+        ConnectionStrings__DefaultConnection: "Host=ep-fancy-dust-a8rb01qv-pooler.eastus2.azure.neon.tech;Database=cryptotracker;Username=cryptotracker_owner;Password=8mNVfCHc7Qdw;sslmode=Require"
         ApiSettings__CoinCap__BaseUrl: "https://api.coincap.io/v2"
         ApiSettings__CoinCap__UpdateIntervalMinutes: "15"
       run: dotnet run --project Cryptotracker.Worker/Cryptotracker.Worker.csproj -c Release
