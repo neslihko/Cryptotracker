@@ -26,7 +26,6 @@ builder.Services.AddHttpClient<ICryptoApiClient, CoinCapApiClient>((serviceProvi
         .GetSection("ApiSettings:CoinCap")
         .Get<CoinCapSettings>()
         ?? throw new InvalidOperationException("CoinCap settings not configured");
-
     client.BaseAddress = new Uri(settings.BaseUrl);
     client.DefaultRequestHeaders.Accept.Add(
         new MediaTypeWithQualityHeaderValue("application/json"));
@@ -49,7 +48,7 @@ builder.Services.AddQuartz(q =>
     _ = q.AddTrigger(opts => opts
         .ForJob("CryptoDataFetchJob")
         .WithIdentity("CryptoDataFetchJob-trigger")
-        .WithCronSchedule($"0 0/{settings.UpdateIntervalMinutes} * * * ?")); // Cron expression for every X minutes/// At minute 0, 10, 20, 30, 40, 50
+        .WithCronSchedule($"0 0/{settings.UpdateIntervalMinutes} * * * ?")); // Cron expression for every X minutes
 });
 
 // Add the Quartz hosted service
@@ -61,25 +60,8 @@ builder.Services.AddQuartzHostedService(options =>
 
 var app = builder.Build();
 
-using (var scope = app.Services.CreateScope())
-{
-    var db = scope.ServiceProvider.GetRequiredService<CryptoDbContext>();
-    var logger = scope.ServiceProvider.GetRequiredService<ILogger<Program>>();
-
-    try
-    {
-        logger.LogInformation("Applying database migrations...");
-        //     await db.Database.MigrateAsync();
-        logger.LogInformation("Database migrations applied successfully");
-    }
-    catch (Exception ex)
-    {
-        logger.LogError(ex, "An error occurred while migrating the database");
-        throw;
-    }
-}
-
-// Validate configuration
+// Remove the database migration check entirely since we don't need it
+// Just validate configuration
 var settings = app.Services.GetRequiredService<IOptions<ApiSettings>>().Value;
 ConfigurationValidator.ValidateApiSettings(settings);
 
