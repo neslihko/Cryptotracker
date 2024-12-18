@@ -21,10 +21,8 @@
     "test": "jest",
     "test:watch": "jest --watch",
     "eject": "react-scripts eject"
-
   },
   "proxy": "https://cryptotracker-dx91.onrender.com/api/Cryptos/",
-
   "eslintConfig": {
     "extends": [
       "react-app",
@@ -50,6 +48,7 @@
     ]
   },
   "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "@babel/preset-env": "^7.26.0",
     "@babel/preset-typescript": "^7.26.0",
     "@testing-library/react": "^16.0.1",

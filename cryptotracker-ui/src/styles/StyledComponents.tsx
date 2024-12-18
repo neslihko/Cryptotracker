@@ -303,7 +303,7 @@ export const DetailDescription = styled.div`
 export const DetailChart = styled(ChartContainer)`
   margin: 24px 0;
 `;
-export default {
+const styledComponents =  {
   DetailContainer,
   DetailHeader,
   DetailInfo,
@@ -331,3 +331,6 @@ export default {
   LoadingSpinner,
   ErrorMessage
 };
+
+export default styledComponents
+
